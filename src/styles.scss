@@ -1,0 +1,104 @@
+.frame {
+  font-family: sans-serif;;
+  width: 400px;
+  height: 300px;
+}
+
+.header {
+  color: #ffffff;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+}
+
+.card {
+  background-color: #0099ff;
+  width: 96%;
+  float: left;
+  text-align: center;
+}
+
+.ques {
+  background-color: #0099ff;
+  width: 4%;
+  float: right;
+  text-align: center;
+  color: #2556a0;
+}
+
+.second-header {
+  color: #ffffff;
+  background-color: #666666;
+  left: 0;
+  height: 25px;
+  line-height: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.icon-bar {
+  width: 90%;
+  float: left;
+  .icon {
+    display: inline-block;
+    height: 100%;
+    width: 40px;
+  }
+}
+
+.hide {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  border-left: #ffffff 1px solid;
+}
+
+.footer {
+  width: 400px;
+  color: #ffffff;
+  background-color: #666666;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  bottom: 0px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.progressbar {
+  text-align: right;
+  .progress {
+    background-color: #f8f40f;
+    height: 25px;
+    float: left;
+  }
+  .remain {
+    background-color: #cccccc;
+    height: 25px;
+    line-height: 25px;
+    float: right;
+    word-wrap: break-word;
+  }
+}
+
+.content {
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.fix-top {
+  font-weight:bold;
+  position: sticky;
+  color: #aaaaaa;
+  top: 0;
+  left: 0;
+  height: 25px;
+}
+
+div.selected {
+  color: #666666;
+  background-color: #ffffff;
+}
